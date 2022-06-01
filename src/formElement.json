@@ -1,0 +1,42 @@
+[
+    {
+        "page_label": "Clinical Decision Support System",
+        "fields": [
+          {
+            "label": "Date of Birth (YYYY-MM-DD)",
+            "placeholder": "birthday",
+            "isRequired": true,
+            "order": 1,
+            "isReadonly": false,
+            "type": "date"
+          },
+          {
+            "label": "Sex",
+            "options": [
+              {
+                "value": "male",
+                "option_label": "Male"
+              },
+              {
+                "value": "female",
+                "option_label": "Female"
+              }
+            ],
+            "placeholder": "sex",
+            "isRequired": true,
+            "order": 2,
+            "isReadonly": false,
+            "type": "select"
+          },
+          {
+            "label": "Weight",
+            "placeholder": "weight",
+            "isRequired": true,
+            "order": 3,
+            "unit": "kg",
+            "isReadonly": false,
+            "type": "number"
+          }
+        ]
+      }
+]
